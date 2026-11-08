@@ -1,0 +1,51 @@
+<!-- Ethan Sharp - Week 2 Assignment - JSON and Bootstrap - November 7, 2026 -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite Singers</title>
+
+    <!-- Load Bootstrap styling and the JavaScript for the table. -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body style="background-color: #61a0c0">
+    <main class="container">
+      <h1>Favorite Singers</h1>
+
+      <!-- Bootstrap row with an image column and a table column. -->
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="images/CornellPic.webp"
+            alt="Chris Cornell"
+            class="img-fluid"
+          />
+        </div>
+
+        <div class="col-sm-8">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Singer</th>
+                <th scope="col">Band</th>
+                <th scope="col">Favorite Song</th>
+                <th scope="col">Hometown</th>
+              </tr>
+            </thead>
+
+            <!-- JavaScript adds the singer rows here. -->
+            <tbody id="singersList"></tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
