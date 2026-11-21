@@ -1,0 +1,18 @@
+/* Ethan Sharp - Week 4 Assignment - Pet Search - November 20, 2026 */
+
+/* Set Bootstrap's body background color to blue. */
+body {
+  --bs-body-bg: #a1d4f7;
+}
+
+/* Make the search box light yellow. */
+#animal-search {
+  background-color: #fcd58e;
+}
+
+/* Keep pet images proportional and their names aligned. */
+.pet-image {
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+}
